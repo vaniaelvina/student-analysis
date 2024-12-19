@@ -4,12 +4,13 @@ This repository is made to support a medium article: https://medium.com/@vaniael
 1. Download this repository.
 2. Open `StudentAnalysis.ipynb` using Jupyter Notebook or Google Collab.
 3. Run all cells.
-## Introduction
+## Short Overview
+### Introduction
 Exam scores are frequently used to measure students’ academic success. However, many factors contribute to a student’s performance. These factors include internal aspects, such as a student’s motivation level, and external aspects, such as family background and access to resources. In this project, we analyzed students’ performance by answering several research questions using a dataset from Kaggle. This dataset contains 20 variables, which are described in the table below.
 
 ![image](https://github.com/user-attachments/assets/a85d39db-7999-4908-99f7-2e43285019ab)
 
-## Research Questions
+### Research Questions
 `What is the average exam score of students based on their access to resources?`
 
 We are interested in finding out how students’ scores vary with different levels of access to resources. To do this, we need to separate students based on their level of access to resources and calculate their average exam scores.
@@ -72,7 +73,13 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/0f944d77-0789-4859-8260-59f0d3900094)
 
-## Variables Correlation Analysis
+`Which one is more likely to score at least 67, students who have at least 80% attendances or less?`
+
+Similar to the previous question, we are interested to know whether students who have more attendance than average students also achieved higher exam score than the average students. Using the graph, it is obvious that the exam scores of the students increased as the study hours increased. Also, using probability formula it was obtained that students who studied at least 20 hours are 71% more likely to achieve 67 and higher.
+
+![image](https://github.com/user-attachments/assets/1c04f1d4-ed76-442c-a6ed-618d6ca1e1f7)
+
+### Variables Correlation Analysis
 In this research we also analyzed correlations between variables and we found some variables with strongest correlation to students exam scores as listed below:
 1. Attendance
 2. Hours_Studied
@@ -81,10 +88,7 @@ In this research we also analyzed correlations between variables and we found so
 
 ![image](https://github.com/user-attachments/assets/ba8848ea-8da3-4097-997e-dedcfdb5a53f)
 
-
-
-
-## Conclusion
+### Conclusion
 From this analysis, it can be concluded that:
 1. Students with higher access to resources consistently achieved higher scores, with an average score of 68. This positive trend was further supported by a strong correlation between students resource access and their exam scores, indicating that increased access to resources leads to better scores. This relationship was also validated through hypothesis testing.
 2. Attending either a private or public school does not have a significant effect on students’ exam scores.
