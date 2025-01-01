@@ -1,16 +1,16 @@
 # Student Performance Factor Analysis
-This repository is made to support a medium article: https://medium.com/@vaniaelvinaa/student-performance-factor-analysis-2a6eb02fd4d8
-## How to use
+_Created by: Vania Elvina Afiati - August 2024_
+### How to use
 1. Download this repository.
 2. Open `StudentAnalysis.ipynb` using Jupyter Notebook or Google Collab.
 3. Run all cells.
-## Short Overview
-### Introduction
+### Short Overview
+#### Introduction
 Exam scores are frequently used to measure students’ academic success. However, many factors contribute to a student’s performance. These factors include internal aspects, such as a student’s motivation level, and external aspects, such as family background and access to resources. In this project, we analyzed students’ performance by answering several research questions using a dataset from Kaggle. This dataset contains 20 variables, which are described in the table below.
 
 ![image](https://github.com/user-attachments/assets/a85d39db-7999-4908-99f7-2e43285019ab)
 
-### Research Questions
+#### Research Questions
 `What is the average exam score of students based on their access to resources?`
 
 We are interested in finding out how students’ scores vary with different levels of access to resources. To do this, we need to separate students based on their level of access to resources and calculate their average exam scores.
@@ -79,7 +79,7 @@ Similar to the previous question, we are interested to know whether students who
 
 ![image](https://github.com/user-attachments/assets/1c04f1d4-ed76-442c-a6ed-618d6ca1e1f7)
 
-### Variables Correlation Analysis
+#### Variables Correlation Analysis
 In this research we also analyzed correlations between variables and we found some variables with strongest correlation to students exam scores as listed below:
 1. Attendance
 2. Hours_Studied
